@@ -6,7 +6,7 @@ Given the positions of a white bishop and a black pawn on the standard chess boa
 
 The bishop has no restrictions in distance for each move, but is limited to diagonal movement. Check out the example below to see how it can move:
 
-![](https://codefightsuserpics.s3.amazonaws.com/tasks/bishopAndPawn/img/bishop.jpg?_tm=1493360096740)
+https://codefightsuserpics.s3.amazonaws.com/tasks/bishopAndPawn/img/bishop.jpg?_tm=1493360096740
 
 **Example**
 
