@@ -1,17 +1,27 @@
 export function containsDuplicates(a: number[]): boolean {
 
-    let elemObj = {}
+    // let elemObj = {}
+
+    // for(let i = 0; i < a.length; i++){
+    //     if(elemObj[a[i]] === undefined){
+    //         elemObj[a[i]] = 1;
+    //     }else{
+    //         elemObj[a[i]]++
+    //     }
+    // }
+
+    // for(let key in elemObj){
+    //     if(elemObj[key] > 1){
+    //         return true;
+    //     }
+    // }
+
+    // return false;
+
+    a = a.sort((a, b) => a - b);
 
     for(let i = 0; i < a.length; i++){
-        if(elemObj[a[i]] === undefined){
-            elemObj[a[i]] = 1;
-        }else{
-            elemObj[a[i]]++
-        }
-    }
-
-    for(let key in elemObj){
-        if(elemObj[key] > 1){
+        if(a[i] === a[i + 1]){
             return true;
         }
     }
